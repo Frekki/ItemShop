@@ -17,7 +17,7 @@ void Shop::printShop()
 
 	for (lit = _items.begin(); lit != _items.end(); lit++)
 	{
-		std::cout << i << ". " << (*lit).getName() << " x " << (*lit).getCount() << std::endl;
+		std::cout << i << ". " << (*lit).getName() << " x " << (*lit).getCount() << "Price: " << (*lit).getValue() << " GP" << std::endl;
 		i++;
 	}
 
